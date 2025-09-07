@@ -23,4 +23,12 @@ class Progress(models.Model):
     def __str__(self):
         return f"({self.user.username} - completed {self.chapter.title})"
     
+
     
+    
+    
+
+
+
+
+
