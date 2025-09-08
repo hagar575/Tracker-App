@@ -8,11 +8,11 @@ class App extends React.Component {
     description: "",
   };
 
-  componentDidMount() { // Lifecycle method that runs after the component is mounted
+  componentDidMount() { 
     axios
       .get("http://127.0.0.1:8000/api/courses/")
-      .then((res) => { // Handle the response
-        this.setState({ courses: res.data }); // Update the state with the fetched data
+      .then((res) => { 
+        this.setState({ courses: res.data }); 
       })
       .catch((err) => console.error("Error fetching courses:", err)); 
   }
