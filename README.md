@@ -2,6 +2,9 @@
 
 A backend API for tracking students' learning progress that is built with Django & Django REST framework
 
+## About 
+A Django project to be able to keep track of students' processes through the API endpoints created with Django REST Framework 
+
 ## Backend Setup
 1. Activate virtual environment
 ```
@@ -17,6 +20,10 @@ cd Tracker
 ``` 
 pip install djangorestframework 
 ```
+```
+pip install djangorestframework-simplejwt                                                                     
+```
+
 4. Run database migrations
 ```
 python manage.py makemigrations
