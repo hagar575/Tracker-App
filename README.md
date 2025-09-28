@@ -17,11 +17,7 @@ cd Tracker
 ``` 
 pip install djangorestframework 
 ```
-```
-pip install django-cors-headers
-```
-
-5. Run database migrations
+4. Run database migrations
 ```
 python manage.py makemigrations
 ```
@@ -29,23 +25,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. Run the server:
+5. Run the server:
 ```
 python manage.py runserver
-```
-
-## Frontend Setup
-1. Navigate to the frontend directory
-```
-cd mytracker
-```
-
-2. Install dependencies
-```
-npm install
-```
-
-3. Start the React app
-```
-npm start
 ```
